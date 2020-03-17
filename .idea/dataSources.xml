@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="development" uuid="35de760c-27d2-4388-9d93-947909bf2ec8">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/environment/toy-app/db/development.sqlite3</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="development [2]" uuid="cea491d3-e6b3-4ea7-bc90-9d2562e26c88">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/environment/sample_app/db/development.sqlite3</jdbc-url>
+    </data-source>
+  </component>
+</project>
