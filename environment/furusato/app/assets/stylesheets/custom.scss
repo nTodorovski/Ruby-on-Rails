@@ -1,0 +1,61 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+.navbar-brand {
+  padding: 0px;
+}
+
+body{
+  padding-top: 100px;
+}
+
+#logo{
+  width: 33%;
+}
+
+#searchForm{
+  padding: 10px;
+  width: 33%;
+}
+
+.nav-items-categories{
+  border-right: 1px solid grey;
+  text-align: center;
+  flex-direction: row;
+}
+
+.categories{
+  display: flex;
+  flex-direction: row;
+}
+
+.logos{
+  width: 30px;
+  height: 30px;
+}
+
+@media only screen and (max-width: 507px) {
+  .categories {
+    flex-direction: column;
+  }
+
+  li {
+    width: 100%;
+  }
+
+  .nav-items-categories{
+    border-right: 1px solid grey;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  #searchForm {
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body{
+    padding-top: 150px;
+  }
+}
